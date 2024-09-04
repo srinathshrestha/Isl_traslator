@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href=" /static/styles.css" />
+    <title>SignWave - ISL Translator</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="static/signwave-logo.png" alt="SignWave Logo" class="logo" />
+      <h1>SignWave</h1>
+      <p>Choose a .jpg image for translation</p>
+      <input type="file" id="image-input" accept=".jpg,.jpeg" />
+      <p id="image-name">No file selected.</p>
+
+      <!-- Hidden by default -->
+      <div id="image-preview" class="hidden">
+        <img id="preview-img" src="#" alt="Image Preview" />
+      </div>
+
+      <button id="remove-button" class="remove-button">Remove</button>
+      <button id="translate-button" class="translate-button" disabled>
+        Translate
+      </button>
+
+      <div id="loading" class="loading hidden">Loading...</div>
+
+      <div id="results" class="hidden">
+        <h2>Detection Results</h2>
+        <ul id="results-list"></ul>
+      </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>

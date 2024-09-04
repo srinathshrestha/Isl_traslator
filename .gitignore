@@ -1,0 +1,50 @@
+# Python-related files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment directories
+env/
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Docker-related files
+*.log
+docker-compose.yml
+Dockerfile
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore pytest cache
+.pytest_cache/
+cache/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore mypy cache
+.mypy_cache/
+.dmypy.json
+.dmypy.json.*/ 
+
+# Ignore Pylint reports
+pylint_report.txt
+
+# Ignore IDE or editor directories and settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
