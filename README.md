@@ -15,8 +15,8 @@ This is a FastAPI project. This README provides instructions for setting up, run
 Clone this repository to your local machine:
 
 ```bash
-git clone <repository_url>
-cd <repository_directory>
+git clone https://github.com/srinathshrestha/Isl_traslator
+cd Isl_traslator
 ```
 ### 2. Create a Virtual Environment (Optional)
 Create a virtual environment to isolate the project dependencies:
